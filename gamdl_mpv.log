@@ -1,0 +1,779 @@
+﻿17:17:26  play pid 31216 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20Say%20It%20Right#songs
+17:17:33  playing after 6750 ms
+17:20:14  play pid 10212 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\995e87b5.webm
+17:20:14  mpv pause=false
+17:20:14  mpv core-idle=true
+17:20:14  mpv start-file
+17:20:14  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.101000
+17:20:15  mpv core-idle=false
+17:20:15  playing after 265 ms
+17:20:19  mpv core-idle=true
+17:20:19  mpv core-idle=false
+17:20:21  play pid 40812 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\5b0b208a.webm
+17:20:21  mpv pause=false
+17:20:21  mpv core-idle=true
+17:20:21  mpv start-file
+17:20:21  mpv file-loaded ao=nil vol=76.000000 mute=no dur=221.521000
+17:20:21  mpv core-idle=false
+17:20:21  playing after 516 ms
+17:20:22  play pid 51124 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\995e87b5.webm
+17:20:23  mpv pause=false
+17:20:23  mpv core-idle=true
+17:20:23  mpv start-file
+17:20:23  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.101000
+17:20:23  mpv core-idle=false
+17:20:23  playing after 515 ms
+17:20:26  mpv core-idle=true
+17:20:26  mpv core-idle=false
+17:20:31  mpv core-idle=true
+17:20:31  mpv end-file reason=eof error=nil
+17:20:35  play pid 37456 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\5b0b208a.webm
+17:20:35  mpv pause=false
+17:20:35  mpv core-idle=true
+17:20:35  mpv start-file
+17:20:35  mpv file-loaded ao=nil vol=76.000000 mute=no dur=221.521000
+17:20:36  mpv core-idle=false
+17:20:36  playing after 250 ms
+17:21:54  play pid 29532 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a85e5e6f.webm
+17:21:54  mpv pause=false
+17:21:54  mpv core-idle=true
+17:21:54  mpv start-file
+17:21:54  mpv file-loaded ao=nil vol=76.000000 mute=no dur=112.941000
+17:21:54  mpv core-idle=false
+17:21:54  playing after 250 ms
+17:21:58  mpv core-idle=true
+17:21:58  mpv core-idle=false
+17:22:06  mpv core-idle=true
+17:22:06  mpv end-file reason=eof error=nil
+17:22:10  play pid 46196 streaming https://music.youtube.com/search?q=My%20Chemical%20Romance%20Dead!#songs
+17:22:10  mpv pause=false
+17:22:10  mpv core-idle=true
+17:22:10  mpv start-file
+17:22:12  mpv end-file reason=redirect error=nil
+17:22:12  mpv start-file
+17:22:14  mpv file-loaded ao=nil vol=76.000000 mute=no dur=196.000000
+17:22:15  mpv core-idle=false
+17:22:15  playing after 5250 ms
+17:22:28  play pid 34520 streaming https://music.youtube.com/search?q=Justice%20Starting%20From%20Zero%20(feat.%20Michael%20McDonald)#songs
+17:22:28  mpv pause=false
+17:22:28  mpv core-idle=true
+17:22:28  mpv start-file
+17:22:32  mpv end-file reason=redirect error=nil
+17:22:32  mpv start-file
+17:22:35  mpv file-loaded ao=nil vol=76.000000 mute=no dur=191.000000
+17:22:35  mpv core-idle=false
+17:22:36  playing after 7250 ms
+17:22:40  play pid 29808 streaming https://music.youtube.com/search?q=Yung%20Lean%20That's%20It%20(feat.%20Future%20%26%20Metro%20Boomin)#songs
+17:22:41  mpv pause=false
+17:22:41  mpv core-idle=true
+17:22:41  mpv start-file
+17:22:44  mpv end-file reason=redirect error=nil
+17:22:44  mpv start-file
+17:24:10  play pid 3996 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\995e87b5.webm
+17:24:10  mpv pause=false
+17:24:10  mpv core-idle=true
+17:24:10  mpv start-file
+17:24:10  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.101000
+17:24:10  mpv core-idle=false
+17:24:10  playing after 250 ms
+17:24:13  mpv core-idle=true
+17:24:13  mpv core-idle=false
+17:24:26  mpv end-file reason=eof error=nil
+17:24:26  mpv core-idle=true
+17:29:24  play pid 36996 streaming https://music.youtube.com/search?q=Ella%20Langley%20Choosin'%20Texas#songs
+17:29:24  mpv pause=false
+17:29:24  mpv core-idle=true
+17:29:24  mpv start-file
+17:29:26  mpv end-file reason=redirect error=nil
+17:29:26  mpv start-file
+17:29:29  mpv file-loaded ao=nil vol=76.000000 mute=no dur=232.000000
+17:29:29  mpv core-idle=false
+17:29:29  playing after 5500 ms
+17:29:37  play pid 692 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\995e87b5.webm
+17:29:37  mpv pause=false
+17:29:37  mpv core-idle=true
+17:29:37  mpv start-file
+17:29:37  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.101000
+17:29:37  mpv core-idle=false
+17:29:38  playing after 266 ms
+17:29:40  mpv core-idle=true
+17:29:40  mpv core-idle=false
+17:29:58  mpv core-idle=true
+17:29:58  mpv end-file reason=eof error=nil
+17:29:58  mpv shutdown
+17:29:58  mpv exited after 21016 ms -> end
+17:29:58  play pid 18344 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\5b0b208a.webm
+17:29:58  mpv pause=false
+17:29:58  mpv core-idle=true
+17:29:58  mpv start-file
+17:29:58  mpv file-loaded ao=nil vol=76.000000 mute=no dur=221.521000
+17:29:59  mpv core-idle=false
+17:29:59  playing after 266 ms
+17:30:57  play pid 14012 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\713dc784.webm
+17:30:57  mpv pause=false
+17:30:57  mpv core-idle=true
+17:30:57  mpv start-file
+17:30:57  mpv file-loaded ao=nil vol=76.000000 mute=no dur=252.341000
+17:30:57  mpv core-idle=false
+17:30:58  playing after 500 ms
+17:31:02  play pid 24748 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20Wait%20For%20You%20Interlude%20(feat.%20Timbaland)#songs
+17:31:02  mpv pause=false
+17:31:02  mpv core-idle=true
+17:31:02  mpv start-file
+17:31:04  play pid 28836 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20Wait%20For%20You#songs
+17:31:04  mpv pause=false
+17:31:04  mpv core-idle=true
+17:31:04  mpv start-file
+17:31:07  mpv end-file reason=redirect error=nil
+17:31:07  mpv start-file
+17:31:10  mpv file-loaded ao=nil vol=76.000000 mute=no dur=311.000000
+17:31:10  play pid 28360 streaming https://music.youtube.com/search?q=Timbaland%20featuring%20Justin%20Timberlake%20%26%20Nelly%20Furtado%20Give%20It%20to%20Me%20(feat.%20Justin%20Timberlake%20%26%20Nelly%20Furtado)%20%5BRadio%20Edit%5D#songs
+17:31:10  mpv pause=false
+17:31:10  mpv core-idle=true
+17:31:10  mpv start-file
+17:31:13  mpv end-file reason=redirect error=nil
+17:31:13  mpv start-file
+17:31:16  mpv file-loaded ao=nil vol=76.000000 mute=no dur=234.000000
+17:31:16  mpv core-idle=false
+17:31:16  playing after 6266 ms
+17:34:21  play pid 46852 streaming https://music.youtube.com/search?q=Oasis%20Don't%20Look%20Back%20in%20Anger%20(Remastered)#songs
+17:34:21  mpv pause=false
+17:34:21  mpv core-idle=true
+17:34:21  mpv start-file
+17:34:24  mpv end-file reason=redirect error=nil
+17:34:24  mpv start-file
+17:34:28  mpv file-loaded ao=nil vol=76.000000 mute=no dur=290.000000
+17:34:28  mpv core-idle=false
+17:34:28  playing after 7250 ms
+17:34:42  play pid 27912 streaming https://music.youtube.com/search?q=Oasis%20Don't%20Look%20Back%20in%20Anger%20(Remastered)#songs
+17:34:42  mpv pause=false
+17:34:42  mpv core-idle=true
+17:34:42  mpv start-file
+17:34:45  mpv end-file reason=redirect error=nil
+17:34:45  mpv start-file
+17:34:48  mpv file-loaded ao=nil vol=76.000000 mute=no dur=290.000000
+17:34:48  mpv core-idle=false
+17:34:48  playing after 6250 ms
+17:39:37  mpv core-idle=true
+17:39:37  mpv end-file reason=eof error=nil
+17:39:38  mpv shutdown
+17:39:38  mpv exited after 295781 ms -> end
+17:39:38  play pid 5592 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\08fd6068.webm
+17:39:38  mpv pause=false
+17:39:38  mpv core-idle=true
+17:39:38  mpv start-file
+17:39:38  mpv file-loaded ao=nil vol=76.000000 mute=no dur=288.621000
+17:39:38  mpv core-idle=false
+17:39:38  playing after 266 ms
+17:44:26  mpv core-idle=true
+17:44:26  mpv end-file reason=eof error=nil
+17:44:27  mpv shutdown
+17:44:27  mpv exited after 289016 ms -> end
+17:44:27  play pid 44652 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\8291a3b6.webm
+17:44:27  mpv pause=false
+17:44:27  mpv core-idle=true
+17:44:27  mpv start-file
+17:44:27  mpv file-loaded ao=nil vol=76.000000 mute=no dur=289.581000
+17:44:27  mpv core-idle=false
+17:44:27  playing after 250 ms
+17:45:32  play pid 24656 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\c4d99031.webm
+17:45:32  mpv pause=false
+17:45:32  mpv core-idle=true
+17:45:32  mpv start-file
+17:45:32  mpv file-loaded ao=nil vol=76.000000 mute=no dur=258.781000
+17:45:32  mpv core-idle=false
+17:45:32  playing after 250 ms
+17:49:50  mpv core-idle=true
+17:49:50  mpv end-file reason=eof error=nil
+17:49:51  mpv shutdown
+17:49:51  mpv exited after 259000 ms -> end
+17:49:51  play pid 38744 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\642cef55.webm
+17:49:51  mpv pause=false
+17:49:51  mpv core-idle=true
+17:49:51  mpv start-file
+17:49:51  mpv file-loaded ao=nil vol=76.000000 mute=no dur=258.781000
+17:49:51  mpv core-idle=false
+17:49:52  playing after 500 ms
+17:50:57  play pid 38128 streaming https://music.youtube.com/search?q=Gorillaz%20%26%20De%20La%20Soul%20Feel%20Good%20Inc.%20(feat.%20David%20Jolicoeur%2C%20Kelvin%20Mercer%20%26%20Vincent%20Mason)#songs
+17:50:57  mpv pause=false
+17:50:57  mpv core-idle=true
+17:50:57  mpv start-file
+17:51:06  mpv end-file reason=redirect error=nil
+17:51:06  mpv start-file
+17:51:10  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.000000
+17:51:10  mpv core-idle=false
+17:51:10  playing after 13047 ms
+17:51:24  mpv core-idle=true
+17:51:24  mpv core-idle=false
+17:51:27  play pid 23192 streaming https://music.youtube.com/search?q=Gorillaz%20Garage%20Palace%20(feat.%20Little%20Simz)#songs
+17:51:27  mpv pause=false
+17:51:27  mpv core-idle=true
+17:51:27  mpv start-file
+17:51:30  play pid 28068 streaming https://music.youtube.com/search?q=Gorillaz%20Hollywood%20(feat.%20Snoop%20Dogg%20%26%20Jamie%20Principle)#songs
+17:51:30  mpv pause=false
+17:51:30  mpv core-idle=true
+17:51:30  mpv start-file
+17:51:31  play pid 25088 streaming https://music.youtube.com/search?q=Gorillaz%20Damascus%20(feat.%20Omar%20Souleyman%20%26%20Yasiin%20Bey)#songs
+17:51:31  mpv pause=false
+17:51:31  mpv core-idle=true
+17:51:31  mpv start-file
+17:51:32  play pid 6596 streaming https://music.youtube.com/search?q=Gorillaz%20Dirty%20Harry%20(Single%20Edit)#songs
+17:51:32  mpv pause=false
+17:51:32  mpv core-idle=true
+17:51:32  mpv start-file
+17:51:33  play pid 6336 streaming https://music.youtube.com/search?q=Gorillaz%20Damascus%20(feat.%20Omar%20Souleyman%20%26%20Yasiin%20Bey)#songs
+17:51:33  mpv pause=false
+17:51:33  mpv core-idle=true
+17:51:33  mpv start-file
+17:51:38  mpv end-file reason=redirect error=nil
+17:51:38  mpv start-file
+17:51:41  mpv file-loaded ao=nil vol=76.000000 mute=no dur=244.000000
+17:51:41  mpv core-idle=false
+17:51:41  playing after 7781 ms
+17:52:51  play pid 27244 streaming https://music.youtube.com/search?q=Gorillaz%20%26%20De%20La%20Soul%20Feel%20Good%20Inc.%20(feat.%20David%20Jolicoeur%2C%20Kelvin%20Mercer%20%26%20Vincent%20Mason)#songs
+17:52:51  mpv pause=false
+17:52:51  mpv core-idle=true
+17:52:51  mpv start-file
+17:52:54  mpv end-file reason=redirect error=nil
+17:52:54  mpv start-file
+17:52:56  mpv file-loaded ao=nil vol=76.000000 mute=no dur=223.000000
+17:52:57  mpv core-idle=false
+17:52:57  playing after 5750 ms
+17:53:04  mpv pause=true
+17:53:04  mpv core-idle=true
+18:05:34  play pid 27376 streaming https://music.youtube.com/search?q=Gorillaz%20%26%20De%20La%20Soul%20Feel%20Good%20Inc.%20(feat.%20David%20Jolicoeur%2C%20Kelvin%20Mercer%20%26%20Vincent%20Mason)#songs
+18:05:34  mpv pause=false
+18:05:34  mpv core-idle=true
+18:05:34  mpv start-file
+18:05:37  mpv end-file reason=redirect error=nil
+18:05:37  mpv start-file
+18:05:39  mpv file-loaded ao=nil vol=100.000000 mute=no dur=223.000000 title=Feel Good Inc. src=https://music.youtube.com/watch?v=NxxjLD2pmlk
+18:05:40  mpv core-idle=false
+18:05:40  playing after 5250 ms
+18:05:47  mpv pause=true
+18:05:47  mpv core-idle=true
+18:10:13  mpv pause=false
+18:10:13  mpv core-idle=false
+18:10:16  mpv core-idle=true
+18:10:16  mpv core-idle=false
+18:10:24  play pid 41568 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\20762254.webm
+18:10:24  mpv pause=false
+18:10:24  mpv core-idle=true
+18:10:24  mpv start-file
+18:10:24  mpv file-loaded ao=nil vol=100.000000 mute=no dur=150.761000 title=20762254.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\20762254.webm
+18:10:24  mpv core-idle=false
+18:10:24  playing after 265 ms
+18:17:36  play pid 25692 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\20762254.webm
+18:17:36  mpv pause=false
+18:17:36  mpv core-idle=true
+18:17:36  mpv start-file
+18:17:36  mpv file-loaded ao=nil vol=100.000000 mute=no dur=150.761000 title=20762254.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\20762254.webm
+18:17:37  mpv audio itag=nil codec=opus br=121836
+18:17:37  mpv core-idle=false
+18:17:37  playing after 515 ms
+18:17:46  play pid 52080 streaming https://music.youtube.com/search?q=Gorillaz%20%26%20De%20La%20Soul%20Feel%20Good%20Inc.%20(feat.%20David%20Jolicoeur%2C%20Kelvin%20Mercer%20%26%20Vincent%20Mason)#songs
+18:17:47  mpv pause=false
+18:17:47  mpv core-idle=true
+18:17:47  mpv start-file
+18:17:51  mpv end-file reason=redirect error=nil
+18:17:51  mpv start-file
+18:18:00  mpv file-loaded ao=nil vol=100.000000 mute=no dur=223.000000 title=Feel Good Inc. src=https://music.youtube.com/watch?v=NxxjLD2pmlk
+18:18:01  mpv audio itag=399 codec=opus br=34331
+18:18:01  mpv core-idle=false
+18:18:01  playing after 14282 ms
+18:18:28  play pid 29184 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\2f7ed31a.webm
+18:18:28  mpv pause=false
+18:18:28  mpv core-idle=true
+18:18:28  mpv start-file
+18:18:28  mpv file-loaded ao=nil vol=100.000000 mute=no dur=340.941000 title=2f7ed31a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\2f7ed31a.webm
+18:18:28  mpv audio itag=nil codec=opus br=1198
+18:18:28  mpv core-idle=false
+18:18:28  playing after 516 ms
+18:18:31  mpv core-idle=true
+18:18:31  mpv audio itag=nil codec=opus br=106656
+18:18:31  mpv core-idle=false
+18:18:36  play pid 37056 streaming https://music.youtube.com/search?q=Gorillaz%20On%20Melancholy%20Hill#songs
+18:18:36  mpv pause=false
+18:18:36  mpv core-idle=true
+18:18:36  mpv start-file
+18:18:40  mpv end-file reason=redirect error=nil
+18:18:40  mpv start-file
+18:18:49  mpv file-loaded ao=nil vol=100.000000 mute=no dur=234.000000 title=On Melancholy Hill src=https://music.youtube.com/watch?v=p00v9ZFhWJM
+18:18:50  mpv audio itag=399 codec=opus br=143968
+18:18:50  mpv core-idle=false
+18:18:50  playing after 13860 ms
+18:19:40  play pid 24200 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20Say%20It%20Right#songs
+18:19:40  mpv pause=false
+18:19:40  mpv core-idle=true
+18:19:40  mpv start-file
+18:19:43  mpv end-file reason=redirect error=nil
+18:19:43  mpv start-file
+18:19:53  mpv file-loaded ao=nil vol=100.000000 mute=no dur=223.000000 title=Say It Right src=https://music.youtube.com/watch?v=7JFtfM9rVvQ
+18:19:53  mpv audio itag=399 codec=opus br=153102
+18:19:53  mpv core-idle=false
+18:19:53  playing after 12516 ms
+18:21:29  mpv core-idle=true
+18:21:29  mpv audio itag=399 codec=opus br=125776
+18:21:29  mpv core-idle=false
+18:21:39  mpv core-idle=true
+18:21:39  mpv end-file reason=eof error=nil
+18:21:40  mpv shutdown
+18:21:40  mpv exited after 119719 ms -> end
+18:21:40  play pid 43540 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\5b0b208a.webm
+18:21:40  mpv pause=false
+18:21:40  mpv core-idle=true
+18:21:40  mpv start-file
+18:21:41  mpv file-loaded ao=nil vol=100.000000 mute=no dur=221.521000 title=5b0b208a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\5b0b208a.webm
+18:21:41  mpv audio itag=nil codec=opus br=125621
+18:21:41  mpv core-idle=false
+18:21:41  playing after 500 ms
+18:21:44  mpv core-idle=true
+18:21:44  mpv audio itag=nil codec=opus br=128608
+18:21:44  mpv core-idle=false
+18:21:53  mpv core-idle=true
+18:21:53  mpv end-file reason=eof error=nil
+18:21:53  mpv shutdown
+18:21:53  mpv exited after 13250 ms -> end
+18:21:54  play pid 21940 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20In%20God's%20Hands#songs
+18:21:54  mpv pause=false
+18:21:54  mpv core-idle=true
+18:21:54  mpv start-file
+18:21:56  mpv end-file reason=redirect error=nil
+18:21:56  mpv start-file
+18:22:04  mpv file-loaded ao=nil vol=100.000000 mute=no dur=252.000000 title=In God's Hands src=https://music.youtube.com/watch?v=il3lhKe3HDE
+18:22:04  mpv audio itag=399 codec=opus br=150595
+18:22:04  mpv core-idle=false
+18:22:04  playing after 10532 ms
+18:22:18  play pid 48388 streaming https://music.youtube.com/search?q=Ski%20Mask%20the%20Slump%20God%20Catch%20Me%20Outside%202#songs
+18:22:18  mpv pause=false
+18:22:18  mpv core-idle=true
+18:22:18  mpv start-file
+18:22:21  mpv end-file reason=redirect error=nil
+18:22:21  mpv start-file
+18:22:31  mpv file-loaded ao=nil vol=100.000000 mute=no dur=126.000000 title=Catch Me Outside 2 src=https://music.youtube.com/watch?v=tOMyRm2QkUM
+18:22:31  mpv audio itag=399 codec=opus br=121517
+18:22:31  mpv core-idle=false
+18:22:32  playing after 13562 ms
+18:23:17  play pid 30148 streaming https://music.youtube.com/search?q=Ella%20Langley%20Choosin'%20Texas#songs
+18:23:17  mpv pause=false
+18:23:17  mpv core-idle=true
+18:23:17  mpv start-file
+18:23:20  mpv end-file reason=redirect error=nil
+18:23:20  mpv start-file
+18:23:29  mpv file-loaded ao=nil vol=100.000000 mute=no dur=232.000000 title=Choosin' Texas src=https://music.youtube.com/watch?v=xukbqwRuN5w
+18:23:30  mpv audio itag=399 codec=opus br=156535
+18:23:30  mpv core-idle=false
+18:23:30  playing after 13000 ms
+18:27:21  mpv core-idle=true
+18:27:21  mpv end-file reason=eof error=nil
+18:27:21  mpv shutdown
+18:27:22  mpv exited after 244719 ms -> end
+18:39:53  play pid 47728 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\9fbd5636.webm
+18:39:53  mpv pause=false
+18:39:53  mpv core-idle=true
+18:39:53  mpv start-file
+18:39:53  mpv file-loaded ao=nil vol=100.000000 mute=no dur=231.761000 title=9fbd5636.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\9fbd5636.webm
+18:39:53  mpv audio itag=nil codec=opus br=156535
+18:39:53  mpv core-idle=false
+18:39:53  playing after 250 ms
+18:43:19  play pid 24400 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20Afraid%20(feat.%20Attitude)#songs
+18:43:19  mpv pause=false
+18:43:19  mpv core-idle=true
+18:43:19  mpv start-file
+18:43:23  mpv end-file reason=redirect error=nil
+18:43:23  mpv start-file
+18:43:32  mpv file-loaded ao=nil vol=100.000000 mute=no dur=215.000000 title=Afraid src=https://music.youtube.com/watch?v=Yq_SfbFiL94
+18:43:33  mpv audio itag=399 codec=opus br=58651
+18:43:33  mpv core-idle=false
+18:43:33  playing after 14172 ms
+18:47:07  mpv core-idle=true
+18:47:07  mpv end-file reason=eof error=nil
+18:47:08  mpv shutdown
+18:47:08  mpv exited after 229500 ms -> end
+18:47:08  play pid 9988 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+18:47:08  mpv pause=false
+18:47:08  mpv core-idle=true
+18:47:08  mpv start-file
+18:47:08  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+18:47:09  mpv audio itag=nil codec=opus br=136559
+18:47:09  mpv core-idle=false
+18:47:09  playing after 515 ms
+18:51:27  mpv core-idle=true
+18:51:27  mpv end-file reason=eof error=nil
+18:51:27  mpv shutdown
+18:51:28  mpv exited after 259468 ms -> end
+18:51:28  play pid 46104 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+18:51:28  mpv pause=false
+18:51:28  mpv core-idle=true
+18:51:28  mpv start-file
+18:51:28  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=01ec7f8a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+18:51:28  mpv audio itag=nil codec=opus br=114858
+18:51:28  mpv core-idle=false
+18:51:28  playing after 547 ms
+18:51:37  play pid 31196 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+18:51:37  mpv pause=false
+18:51:37  mpv core-idle=true
+18:51:37  mpv start-file
+18:51:37  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+18:51:37  mpv audio itag=nil codec=opus br=136559
+18:51:37  mpv core-idle=false
+18:51:37  playing after 266 ms
+18:55:55  mpv core-idle=true
+18:55:55  mpv end-file reason=eof error=nil
+18:55:56  mpv shutdown
+18:55:56  mpv exited after 259313 ms -> end
+18:55:56  play pid 1844 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+18:55:56  mpv pause=false
+18:55:56  mpv core-idle=true
+18:55:56  mpv start-file
+18:55:56  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=01ec7f8a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+18:55:57  mpv audio itag=nil codec=opus br=114858
+18:55:57  mpv core-idle=false
+18:55:57  playing after 797 ms
+18:59:58  mpv core-idle=true
+18:59:58  mpv end-file reason=eof error=nil
+18:59:59  mpv shutdown
+18:59:59  mpv exited after 243125 ms -> end
+18:59:59  play pid 23816 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+18:59:59  mpv pause=false
+18:59:59  mpv core-idle=true
+18:59:59  mpv start-file
+19:00:00  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=a8936303.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+19:00:00  mpv audio itag=nil codec=opus br=114858
+19:00:00  mpv core-idle=false
+19:00:00  playing after 515 ms
+19:03:33  play pid 26476 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+19:03:33  mpv pause=false
+19:03:33  mpv core-idle=true
+19:03:33  mpv start-file
+19:03:34  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=01ec7f8a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+19:03:34  mpv audio itag=nil codec=opus br=114858
+19:03:34  mpv core-idle=false
+19:03:34  playing after 766 ms
+19:03:34  play pid 22832 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:03:34  mpv pause=false
+19:03:34  mpv core-idle=true
+19:03:34  mpv start-file
+19:03:34  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:03:34  mpv audio itag=nil codec=opus br=136559
+19:03:34  mpv core-idle=false
+19:03:35  playing after 797 ms
+19:07:53  mpv core-idle=true
+19:07:53  mpv end-file reason=eof error=nil
+19:07:53  mpv shutdown
+19:07:53  mpv exited after 259672 ms -> end
+19:07:54  play pid 26564 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+19:07:54  mpv pause=false
+19:07:54  mpv core-idle=true
+19:07:54  mpv start-file
+19:07:54  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=01ec7f8a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+19:07:54  mpv audio itag=nil codec=opus br=114858
+19:07:54  mpv core-idle=false
+19:07:54  playing after 812 ms
+19:11:56  mpv core-idle=true
+19:11:56  mpv end-file reason=eof error=nil
+19:11:57  mpv shutdown
+19:11:57  mpv exited after 243203 ms -> end
+19:11:57  play pid 35844 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+19:11:57  mpv pause=false
+19:11:57  mpv core-idle=true
+19:11:57  mpv start-file
+19:11:57  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.301000 title=a8936303.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+19:11:58  mpv audio itag=nil codec=opus br=114858
+19:11:58  mpv core-idle=false
+19:11:58  playing after 828 ms
+19:15:59  mpv core-idle=true
+19:15:59  mpv end-file reason=eof error=nil
+19:16:00  mpv shutdown
+19:16:00  mpv exited after 243109 ms -> end
+19:16:00  play pid 51368 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\3c5f8ec8.webm
+19:16:01  mpv pause=false
+19:16:01  mpv core-idle=true
+19:16:01  mpv start-file
+19:16:01  mpv file-loaded ao=nil vol=100.000000 mute=no dur=242.501000 title=3c5f8ec8.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\3c5f8ec8.webm
+19:16:01  mpv audio itag=nil codec=opus br=122938
+19:16:01  mpv core-idle=false
+19:16:01  playing after 1156 ms
+19:20:03  mpv core-idle=true
+19:20:03  mpv end-file reason=eof error=nil
+19:20:04  mpv shutdown
+19:20:04  mpv exited after 243703 ms -> end
+19:20:04  play pid 33740 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\c3ef750d.webm
+19:20:05  mpv pause=false
+19:20:05  mpv core-idle=true
+19:20:05  mpv start-file
+19:20:05  mpv file-loaded ao=nil vol=100.000000 mute=no dur=244.501000 title=c3ef750d.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\c3ef750d.webm
+19:20:05  mpv audio itag=nil codec=opus br=120910
+19:20:05  mpv core-idle=false
+19:20:06  playing after 1172 ms
+19:23:03  play pid 46304 streaming https://music.youtube.com/search?q=Gorillaz%20Orange%20County%20(feat.%20Bizarrap%2C%20Kara%20Jackson%20%26%20Anoushka%20Shankar)#songs
+19:23:03  mpv pause=false
+19:23:03  mpv core-idle=true
+19:23:03  mpv start-file
+19:23:13  mpv end-file reason=redirect error=nil
+19:23:13  mpv start-file
+19:23:28  mpv pause=true
+19:23:31  mpv file-loaded ao=nil vol=100.000000 mute=no dur=208.000000 title=Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar) src=https://music.youtube.com/watch?v=Kkyi3X21W7s
+19:23:32  mpv audio itag=399 codec=opus br=161357
+19:23:32  playing after 29390 ms
+19:24:01  mpv pause=false
+19:24:01  mpv core-idle=false
+19:24:10  mpv pause=true
+19:24:10  mpv core-idle=true
+19:24:25  play pid 12732 streaming https://music.youtube.com/search?q=Danialcx%20%26%2047Sinn%20BORAK%20CAM%20MEMBER#songs
+19:24:26  mpv pause=false
+19:24:26  mpv core-idle=true
+19:24:26  mpv start-file
+19:24:38  mpv end-file reason=redirect error=nil
+19:24:38  mpv start-file
+19:24:49  mpv file-loaded ao=nil vol=100.000000 mute=no dur=164.000000 title=BORAK MACAM MEMBER src=https://music.youtube.com/watch?v=gyHh1hvs91I
+19:24:49  mpv audio itag=399 codec=opus br=135234
+19:24:49  mpv core-idle=false
+19:24:49  playing after 23938 ms
+19:24:59  mpv pause=true
+19:24:59  mpv core-idle=true
+19:25:24  play pid 43960 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:25:24  mpv pause=false
+19:25:24  mpv core-idle=true
+19:25:24  mpv start-file
+19:25:24  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:25:24  mpv audio itag=nil codec=opus br=136559
+19:25:24  mpv core-idle=false
+19:25:24  playing after 531 ms
+19:25:26  mpv pause=true
+19:25:26  mpv core-idle=true
+19:25:39  play pid 7744 streaming https://music.youtube.com/search?q=Michael%20Jackson%20Chicago#songs
+19:25:39  mpv pause=false
+19:25:39  mpv core-idle=true
+19:25:39  mpv start-file
+19:25:43  mpv pause=true
+19:25:45  mpv end-file reason=redirect error=nil
+19:25:45  mpv start-file
+19:25:57  mpv file-loaded ao=nil vol=100.000000 mute=no dur=246.000000 title=Chicago src=https://music.youtube.com/watch?v=wAoq__SQpwk
+19:25:58  mpv audio itag=399 codec=opus br=131944
+19:25:58  playing after 18797 ms
+19:25:59  mpv pause=false
+19:25:59  mpv core-idle=false
+19:26:06  mpv pause=true
+19:26:06  mpv core-idle=true
+19:26:08  mpv pause=false
+19:26:08  mpv core-idle=false
+19:26:09  mpv pause=true
+19:26:09  mpv core-idle=true
+19:26:13  mpv pause=false
+19:26:13  mpv core-idle=false
+19:26:21  mpv pause=true
+19:26:21  mpv core-idle=true
+19:26:51  play pid 16828 streaming https://music.youtube.com/search?q=Ice%20Spice%20Big%20Guy%20(from%20%22The%20SpongeBob%20Movie%3A%20Search%20for%20SquarePants%E2%80%9D)#songs
+19:26:51  mpv pause=false
+19:26:51  mpv core-idle=true
+19:26:51  mpv start-file
+19:26:55  mpv pause=true
+19:26:55  mpv end-file reason=redirect error=nil
+19:26:55  mpv start-file
+19:27:06  mpv file-loaded ao=nil vol=100.000000 mute=no dur=151.000000 title=Big Guy (from "The SpongeBob Movie: Search for SquarePants”) src=https://music.youtube.com/watch?v=U1NoKf33xcA
+19:27:07  mpv audio itag=399 codec=opus br=121836
+19:27:07  playing after 16016 ms
+19:27:28  play pid 40224 streaming https://music.youtube.com/search?q=Wings%20Rantai#songs
+19:27:28  mpv pause=false
+19:27:28  mpv core-idle=true
+19:27:28  mpv start-file
+19:27:33  mpv end-file reason=redirect error=nil
+19:27:33  mpv start-file
+19:27:43  mpv file-loaded ao=nil vol=100.000000 mute=no dur=318.000000 title=Rantai src=https://music.youtube.com/watch?v=x6QTxHMYjn8
+19:27:43  mpv audio itag=399 codec=opus br=1198
+19:27:43  mpv core-idle=false
+19:27:43  playing after 15813 ms
+19:28:02  mpv pause=true
+19:28:02  mpv core-idle=true
+19:31:16  play pid 39080 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:31:16  mpv pause=false
+19:31:16  mpv core-idle=true
+19:31:16  mpv start-file
+19:31:16  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+19:31:17  mpv audio itag=nil codec=opus br=136559
+19:31:17  mpv core-idle=false
+19:31:23  mpv pause=true
+19:31:23  mpv core-idle=true
+20:11:38  play pid 48344 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+20:11:38  mpv pause=false
+20:11:38  mpv core-idle=true
+20:11:38  mpv start-file
+20:11:38  mpv file-loaded ao=nil vol=100.000000 mute=no dur=258.901000 title=fde80c80.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\fde80c80.webm
+20:11:38  mpv audio itag=nil codec=opus br=136559
+20:11:38  mpv core-idle=false
+20:11:38  playing after 859 ms
+20:13:40  mpv pause=true
+20:13:40  mpv core-idle=true
+20:15:43  mpv pause=false
+20:15:43  mpv core-idle=false
+20:15:48  mpv pause=true
+20:15:48  mpv core-idle=true
+20:15:49  mpv pause=false
+20:15:49  mpv core-idle=false
+20:15:51  mpv pause=true
+20:15:51  mpv core-idle=true
+20:15:52  mpv pause=false
+20:15:52  mpv core-idle=false
+20:15:53  mpv pause=true
+20:15:53  mpv core-idle=true
+20:15:54  mpv pause=false
+20:15:54  mpv core-idle=false
+20:15:55  mpv pause=true
+20:15:55  mpv core-idle=true
+20:15:55  mpv pause=false
+20:15:55  mpv core-idle=false
+20:16:28  play pid 25148 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+20:16:29  mpv pause=false
+20:16:29  mpv core-idle=true
+20:16:29  mpv start-file
+20:16:29  mpv file-loaded ao=nil vol=60.000000 mute=no dur=242.301000 title=01ec7f8a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\01ec7f8a.webm
+20:16:29  mpv audio itag=nil codec=opus br=114858
+20:16:29  mpv core-idle=false
+20:16:29  playing after 812 ms
+20:16:41  play pid 7420 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+20:16:41  mpv pause=false
+20:16:41  mpv core-idle=true
+20:16:41  mpv start-file
+20:16:41  mpv file-loaded ao=nil vol=60.000000 mute=no dur=242.301000 title=a8936303.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\a8936303.webm
+20:16:42  mpv audio itag=nil codec=opus br=114858
+20:16:42  mpv core-idle=false
+20:16:42  playing after 1016 ms
+20:16:47  play pid 42324 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\3c5f8ec8.webm
+20:16:47  mpv pause=false
+20:16:47  mpv core-idle=true
+20:16:47  mpv start-file
+20:16:48  mpv file-loaded ao=nil vol=60.000000 mute=no dur=242.501000 title=3c5f8ec8.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\3c5f8ec8.webm
+20:16:48  mpv audio itag=nil codec=opus br=122938
+20:16:48  mpv core-idle=false
+20:16:48  playing after 1031 ms
+20:17:44  play pid 43872 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\c3ef750d.webm
+20:17:44  mpv pause=false
+20:17:44  mpv core-idle=true
+20:17:44  mpv start-file
+20:17:45  mpv file-loaded ao=nil vol=60.000000 mute=no dur=244.501000 title=c3ef750d.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\c3ef750d.webm
+20:17:45  mpv audio itag=nil codec=opus br=120910
+20:17:45  mpv core-idle=false
+20:17:45  playing after 797 ms
+20:17:48  mpv core-idle=true
+20:17:48  mpv audio itag=nil codec=opus br=122752
+20:17:48  mpv core-idle=false
+20:17:51  play pid 33084 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\08899f7a.webm
+20:17:51  mpv pause=false
+20:17:51  mpv core-idle=true
+20:17:51  mpv start-file
+20:17:51  mpv file-loaded ao=nil vol=60.000000 mute=no dur=215.601000 title=08899f7a.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\08899f7a.webm
+20:17:52  mpv audio itag=nil codec=opus br=154459
+20:17:52  mpv core-idle=false
+20:17:52  playing after 781 ms
+20:17:53  play pid 28788 streaming https://music.youtube.com/search?q=Nelly%20Furtado%20No%20Hay%20Igual#songs
+20:17:53  mpv pause=false
+20:17:53  mpv core-idle=true
+20:17:53  mpv start-file
+20:18:04  mpv end-file reason=redirect error=nil
+20:18:04  mpv start-file
+20:18:06  play pid 15768 streaming https://music.youtube.com/search?q=The%20Weeknd%20%26%20Playboi%20Carti%20Timeless#songs
+20:18:06  mpv pause=false
+20:18:06  mpv core-idle=true
+20:18:06  mpv start-file
+20:18:19  mpv end-file reason=redirect error=nil
+20:18:19  mpv start-file
+20:18:33  mpv file-loaded ao=nil vol=60.000000 mute=no dur=256.000000 title=Timeless src=https://music.youtube.com/watch?v=a4O-abCXsfA
+20:18:34  mpv audio itag=399 codec=opus br=128463
+20:18:34  mpv core-idle=false
+20:18:34  playing after 27594 ms
+20:22:49  mpv core-idle=true
+20:22:49  mpv end-file reason=eof error=nil
+20:22:50  mpv shutdown
+20:22:50  mpv exited after 283640 ms -> end
+20:44:25  play pid 25508 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\164c4896.webm
+20:44:25  mpv pause=false
+20:44:25  mpv core-idle=true
+20:44:25  mpv start-file
+20:44:25  mpv file-loaded ao=nil vol=60.000000 mute=no dur=256.021000 title=164c4896.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\164c4896.webm
+20:44:26  mpv audio itag=nil codec=opus br=128463
+20:44:26  mpv core-idle=false
+20:44:26  playing after 516 ms
+20:45:39  play pid 6644 streaming https://music.youtube.com/search?q=Sergio%20Mendes%20Mas%20Que%20Nada%20(feat.%20Black%20Eyed%20Peas)#songs
+20:45:40  mpv pause=false
+20:45:40  mpv core-idle=true
+20:45:40  mpv start-file
+20:45:45  mpv end-file reason=redirect error=nil
+20:45:45  mpv start-file
+20:45:56  mpv file-loaded ao=nil vol=60.000000 mute=no dur=263.000000 title=Mas Que Nada src=https://music.youtube.com/watch?v=j43oD4l0vcU
+20:45:57  mpv audio itag=398 codec=opus br=108758
+20:45:57  mpv core-idle=false
+20:45:57  playing after 17531 ms
+20:46:45  mpv core-idle=true
+20:46:45  mpv audio itag=398 codec=opus br=108758
+20:46:45  mpv core-idle=false
+20:46:46  mpv core-idle=true
+20:46:46  mpv audio itag=398 codec=opus br=138208
+20:46:46  mpv core-idle=false
+20:46:51  mpv core-idle=true
+20:46:51  mpv audio itag=398 codec=opus br=136608
+20:46:51  mpv core-idle=false
+20:46:54  mpv core-idle=true
+20:46:54  mpv audio itag=398 codec=opus br=136608
+20:46:54  mpv core-idle=false
+20:47:01  mpv pause=true
+20:47:01  mpv core-idle=true
+20:47:18  play pid 39864 streaming https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)#songs
+20:47:18  mpv pause=false
+20:47:18  mpv core-idle=true
+20:47:18  mpv start-file
+20:47:22  mpv end-file reason=redirect error=nil
+20:47:22  mpv start-file
+20:47:32  mpv file-loaded ao=nil vol=60.000000 mute=no dur=192.000000 title=Jackass src=https://music.youtube.com/watch?v=5zo8FyeTuYY
+20:47:33  mpv audio itag=248 codec=opus br=52359
+20:47:33  mpv core-idle=false
+20:47:33  playing after 15500 ms
+20:47:44  mpv pause=true
+20:47:44  mpv core-idle=true
+20:59:01  resolve https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)&d=81#songs -> https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)&d=81#songs
+20:59:05  resolve https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)&d=81#songs -> https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)&d=81#songs
+20:59:05  play pid 15036 streaming https://music.youtube.com/search?q=Squeak%20E.%20Clean%20Corona%20(Jackass%20Opera%20Mix)&d=81#songs
+20:59:05  mpv pause=false
+20:59:05  mpv core-idle=true
+20:59:05  mpv start-file
+20:59:10  mpv end-file reason=redirect error=nil
+20:59:10  mpv start-file
+20:59:15  mpv pause=true
+20:59:21  mpv file-loaded ao=nil vol=60.000000 mute=no dur=146.000000 title=Corona src=https://music.youtube.com/watch?v=Cgv522f5wfU
+20:59:21  mpv audio itag=399 codec=opus br=139018
+20:59:21  playing after 16562 ms
+20:59:28  mpv pause=false
+20:59:28  mpv core-idle=false
+20:59:31  mpv pause=true
+20:59:31  mpv core-idle=true
+20:59:31  resolve https://music.youtube.com/search?q=Twisted%20Sister%20The%20Kids%20Are%20Back&d=199#songs -> https://music.youtube.com/search?q=Twisted%20Sister%20The%20Kids%20Are%20Back&d=199#songs
+20:59:32  mpv pause=false
+20:59:32  mpv core-idle=false
+20:59:34  mpv pause=true
+20:59:34  mpv core-idle=true
+21:08:48  play pid 17544 from cache C:\Users\ASUS\AppData\Roaming\GAMDL_cache\0f560b08.webm
+21:08:48  mpv pause=false
+21:08:48  mpv core-idle=true
+21:08:48  mpv start-file
+21:08:48  mpv file-loaded ao=nil vol=60.000000 mute=no dur=147.021000 title=0f560b08.webm src=C:\Users\ASUS\AppData\Roaming\GAMDL_cache\0f560b08.webm
+21:08:48  mpv audio itag=nil codec=opus br=122108
+21:08:48  mpv core-idle=false
+21:08:48  playing after 515 ms
+21:08:52  mpv pause=true
+21:08:52  mpv core-idle=true
+21:08:53  resolve Twisted%20Sister%20The%20Kids%20Are%20Back d=199 -> https://music.youtube.com/watch?v=sjmiG2qmUVk
+21:46:39  mpv pause=false
+21:46:39  mpv core-idle=false
+21:47:02  resolve Drake%20God's%20Plan d=199 -> https://music.youtube.com/watch?v=m1a_GqJf02M
+21:47:02  resolve Drake%20God's%20Plan d=199 -> https://music.youtube.com/watch?v=m1a_GqJf02M
+21:47:02  play pid 34876 streaming https://music.youtube.com/search?q=Drake%20God's%20Plan&d=199#songs
+21:47:02  mpv pause=false
+21:47:03  mpv core-idle=true
+21:47:03  mpv start-file
+21:47:13  mpv file-loaded ao=nil vol=60.000000 mute=no dur=199.000000 title=God's Plan src=https://music.youtube.com/watch?v=m1a_GqJf02M
+21:47:14  mpv audio itag=399 codec=opus br=128830
+21:47:14  mpv core-idle=false
+21:47:14  playing after 12031 ms
+21:47:30  resolve Future%20Life%20Is%20Good%20(feat.%20Drake) d=238 -> https://music.youtube.com/watch?v=rOVsNCo_2d4
+21:47:55  mpv pause=true
+21:47:55  mpv core-idle=true
