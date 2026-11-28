@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GAMDL for Windows: save Apple Music to your PC</title>
+<meta name="description" content="GAMDL is a Windows app that searches Apple Music, queues albums and playlists, and saves each track to a folder you choose. Needs an active Apple Music subscription.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎧</text></svg>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GAMDL for Windows: save Apple Music to your PC">
+<meta property="og:description" content="Search, queue and save Apple Music to a folder on your PC without touching a command line.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{color-scheme:dark;--f:'Geist',ui-sans-serif,system-ui,sans-serif;--bg:#000000;--surf:rgba(255,255,255,.08);--line:rgba(255,255,255,.18);--tx:#FFFFFF;--mut:#A1A1A6;--btn:#0071E3;--btnx:#FFFFFF;--nav:rgba(255,255,255,.08);--sh:rgba(0,0,0,.35);--orb:.5;--h1:#FFFFFF;--h2:#9B9B9B;--ease:cubic-bezier(0.22,1,0.36,1);
+--s25:2px;--s50:4px;--s75:8px;--s100:12px;--s200:16px;--s300:24px;--s400:32px;--s500:40px;--s600:48px;--s700:64px;--s800:80px;--s900:96px;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){color-scheme:light;--bg:#FFFFFF;--surf:rgba(255,255,255,.55);--line:rgba(0,0,0,.08);--tx:#1D1D1F;--mut:#6E6E73;--btn:#0071E3;--btnx:#FFFFFF;--nav:rgba(255,255,255,.6);--h1:#000000;--h2:#666666;--sh:rgba(0,0,0,.12);--orb:.3}}
+
+html{background:var(--bg);scroll-padding-top:calc(env(safe-area-inset-top,0px) + var(--s900))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;color:var(--tx);font-family:var(--f);-webkit-font-smoothing:antialiased}
+p,h1,h2,h3,ol{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--tx);outline-offset:2px}
+
+/* text styles */
+.heading-1{font:600 3.75rem/1 var(--f)}.heading-2{font:600 3rem/1 var(--f)}.heading-3{font:600 2.25rem/2.5rem var(--f)}.heading-4{font:600 1.875rem/2.25rem var(--f)}
+.title-1{font:500 1.25rem/1.75rem var(--f)}.title-2{font:500 1.125rem/1.75rem var(--f)}.title-3{font:500 1rem/1.5rem var(--f)}.title-4{font:500 .875rem/1.25rem var(--f)}
+.body-3{font:400 1rem/1.5rem var(--f)}
+.button-md{font:600 1rem/1.5rem var(--f)}.button-sm{font:600 .875rem/1.25rem var(--f)}
+.caption-2{font:400 .875rem/1.25rem var(--f)}.caption-4{font:500 .75rem/1rem var(--f)}
+@media(min-width:768px){.md-heading-1{font-size:3.75rem;line-height:1}.md-heading-2{font-size:3rem;line-height:1}.md-heading-3{font-size:2.25rem;line-height:2.5rem}}
+h1,h2,.tag{text-wrap:balance;letter-spacing:-.02em}p,summary{text-wrap:pretty}
+.mut{color:var(--mut)}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 var(--s300)}
+section{padding:var(--s900) 0}
+@media(max-width:767px){section{padding:var(--s700) 0}}
+h2{max-width:680px;margin:0 auto var(--s600);text-align:center}
+.skip{position:absolute;left:var(--s200);top:-96px;background:var(--btn);color:var(--btnx);padding:var(--s75) var(--s100);border-radius:8px;z-index:20}
+.skip:focus{top:var(--s200)}
+
+/* nav */
+nav{position:fixed;z-index:10;top:calc(var(--s200) + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:var(--s300);padding:var(--s75) var(--s75) var(--s75) var(--s300);background:var(--nav);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:9999px;white-space:nowrap}
+nav a.l{text-decoration:none;color:var(--mut);transition:opacity .3s var(--ease)}nav a.l:hover{color:var(--tx)}
+@media(max-width:640px){nav .l{display:none}nav{gap:var(--s200)}}
+
+/* glass. shortcut: blur, saturate and a specular ring, no lens refraction. Upgrade with an SVG feDisplacementMap (Chromium only). */
+.mock,.card,details,nav{-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08),inset 0 0 24px rgba(255,255,255,.05),0 8px 32px var(--sh)}
+.orbs{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.orbs i{position:absolute;aspect-ratio:1;border-radius:50%;filter:blur(90px);opacity:var(--orb);animation:drift 24s var(--ease) infinite alternate}
+.orbs i:nth-child(1){width:min(520px,80vw);background:#0A84FF;top:-120px;left:-120px}
+.orbs i:nth-child(2){width:min(460px,70vw);background:#BF5AF2;top:30%;right:-140px;animation-delay:-8s}
+.orbs i:nth-child(3){width:min(480px,75vw);background:#FF375F;bottom:-160px;left:30%;animation-delay:-16s}
+@keyframes drift{to{transform:translate(48px,64px)}}
+
+.logo{display:block;height:24px;width:auto}
+@media(prefers-color-scheme:light){.logo{filter:invert(1)}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:var(--s75);padding:var(--s75) var(--s100);border-radius:9999px;background:var(--btn);color:var(--btnx);text-decoration:none;transition:transform .5s var(--ease),opacity .3s var(--ease)}
+.btn:hover{opacity:.85}.btn:active{transform:scale(.98)}
+.btn svg{width:20px;height:20px;flex:none}
+nav .btn:focus-visible,.btn:focus-visible{outline-color:var(--tx)}
+
+/* hero */
+.hero{padding-top:var(--s900);padding-bottom:var(--s700);text-align:center}
+.hero h1{max-width:680px;margin:0 auto;background:linear-gradient(to right,var(--h1),var(--h2));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.hero .sub{max-width:680px;margin:var(--s200) auto 0;color:var(--mut)}
+.cta{margin-top:var(--s400);display:flex;flex-direction:column;align-items:center;gap:var(--s100)}
+.d{display:none}@media(min-width:768px){.d{display:inline}}
+
+/* queue mock: outer radius 24, pad 8 -> pane 16, pad 8 -> rows 8 */
+.mock{margin:var(--s700) auto 0;text-align:left;max-width:760px;background:var(--surf);border:1px solid var(--line);border-radius:24px;padding:var(--s75)}
+.pane{border-radius:16px;padding:var(--s75);display:grid;gap:var(--s75)}
+.mh{display:flex;justify-content:space-between;padding:var(--s75) var(--s100)}
+.row{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:var(--s100);display:grid;grid-template-columns:1fr auto;gap:var(--s75) var(--s100);align-items:center}
+.pill{border:1px solid var(--line);border-radius:9999px;padding:var(--s25) var(--s75)}
+.bar{grid-column:1/-1;height:4px;border-radius:9999px;background:var(--line);position:relative;overflow:hidden}
+.bar::after{content:"";position:absolute;inset:0;background:var(--tx);transform:scaleX(var(--p));transform-origin:left}
+
+/* tagline reveal */
+.tag{max-width:680px;margin:0 auto;text-align:center}
+.js .wd{opacity:.3;transition:opacity .5s var(--ease)}.js .wd.on{opacity:1}
+
+/* cards and steps */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--s200)}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:24px;padding:var(--s300);display:grid;gap:var(--s75);align-content:start}
+.steps{list-style:none;padding:0}
+
+/* faq */
+.faq{display:grid;gap:var(--s75);max-width:760px;margin:0 auto}
+details{background:var(--surf);border:1px solid var(--line);border-radius:12px}
+summary{display:flex;justify-content:space-between;align-items:center;gap:var(--s200);padding:var(--s200);cursor:pointer;list-style:none;border-radius:12px;transition:opacity .3s var(--ease)}
+summary::-webkit-details-marker{display:none}summary:hover{opacity:.8}
+summary::after{content:"";flex:none;width:8px;height:8px;border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);transform:rotate(45deg);transition:transform .5s var(--ease)}
+details[open] summary::after{transform:rotate(225deg)}
+details p{padding:0 var(--s200) var(--s200);color:var(--mut)}
+
+/* final cta + footer */
+.final .cta{margin-top:var(--s300)}
+footer{border-top:1px solid var(--line);padding:var(--s500) 0 var(--s600)}
+footer .wrap{display:grid;gap:var(--s200)}footer p{max-width:680px}
+.dis{color:var(--mut);margin-right:var(--s200);cursor:not-allowed}
+
+/* scroll reveal */
+.js .reveal{opacity:0;transform:translateY(var(--s400));transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .reveal{transform:none}.orbs i{animation:none}.btn,summary::after{transition-property:opacity}}
+</style>
+</head>
+<body>
+<div class="orbs" aria-hidden="true"><i></i><i></i><i></i></div>
+<a class="skip button-sm" href="#main">Skip to content</a>
+<nav aria-label="Main">
+  <img class="logo" src="data:image/png;base64,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" alt="GAMDL desktop" width="95" height="24">
+  <a class="l title-4" href="#features">Features</a>
+  <a class="l title-4" href="#how">How it works</a>
+  <a class="l title-4" href="#faq">FAQ</a>
+  <a class="btn button-sm" href="{{download_url}}">Download for Windows</a>
+</nav>
+
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <h1 class="heading-3 md-heading-1">Save Apple Music to your PC<br class="d"> without touching a command line</h1>
+    <p class="sub title-2">GAMDL is a Windows app that searches Apple Music, queues albums and playlists, and saves each track to a folder you choose. On first launch it sets up Python, gamdl and mpv for you.</p>
+    <div class="cta">
+      <a class="btn button-md" href="{{download_url}}"><svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg>Download GAMDL for Windows</a>
+      <p class="caption-2 mut">Needs an active Apple Music subscription. Setup asks before it installs anything.<br>Built on gamdl 4, with up to 8 downloads running at once.</p>
+    </div>
+    <div class="mock reveal" role="img" aria-label="GAMDL download queue: one album downloading, one playlist waiting, one song finished">
+      <div class="pane" aria-hidden="true">
+        <div class="mh"><span class="caption-4">Queue</span><span class="caption-4 mut">3 items</span></div>
+        <div class="row"><div><div class="title-4">Salt Flats</div><div class="caption-2 mut">Juno Park, album split into 11 tracks</div></div><span class="pill caption-4">64%</span><i class="bar" style="--p:.64"></i></div>
+        <div class="row"><div><div class="title-4">Low Tide Radio</div><div class="caption-2 mut">Ines Calderón, playlist of 24 tracks</div></div><span class="pill caption-4">Queued</span><i class="bar" style="--p:0"></i></div>
+        <div class="row"><div><div class="title-4">Paper Lanterns</div><div class="caption-2 mut">Tavi Ross, single track</div></div><span class="pill caption-4">Done</span><i class="bar" style="--p:1"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-label="Tagline">
+  <div class="wrap"><p class="tag heading-3 md-heading-2" id="tg">Paste a link, press download, and find your music in a folder, tagged with cover art and ready for any player.</p></div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2 class="heading-4 md-heading-3 reveal">Everything the command line made you do by hand</h2>
+    <div class="grid reveal">
+      <div class="card"><h3 class="title-1">Search or paste a link</h3><p class="body-3 mut">Search Apple Music inside the app, or paste an album, playlist, artist or song link. Pick your storefront country so results match your region.</p></div>
+      <div class="card"><h3 class="title-1">Queue it and walk away</h3><p class="body-3 mut">Run up to 8 downloads at once. When the queue ends, a notification tells you how many worked and how many failed, and one click retries the failed ones.</p></div>
+      <div class="card"><h3 class="title-1">Albums arrive as tracks</h3><p class="body-3 mut">Albums split into separate files automatically, with cover art attached. Both are settings you can turn off.</p></div>
+      <div class="card"><h3 class="title-1">Hear it before you keep it</h3><p class="body-3 mut">Preview full songs with gapless playback and synced lyrics. Previews play from a temporary folder and are deleted afterwards.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2 class="heading-4 md-heading-3 reveal">From install to first download in three steps</h2>
+    <ol class="steps grid reveal">
+      <li class="card"><span class="caption-4 mut">Step 1</span><h3 class="title-1">Set up once</h3><p class="body-3 mut">On first launch GAMDL checks for Python, gamdl, mpv and WebView2. If anything is missing, it asks and then installs it for you.</p></li>
+      <li class="card"><span class="caption-4 mut">Step 2</span><h3 class="title-1">Sign in to Apple Music</h3><p class="body-3 mut">Add your cookies file in Settings, or complete the one time sign in window that gamdl opens.</p></li>
+      <li class="card"><span class="caption-4 mut">Step 3</span><h3 class="title-1">Search, queue, download</h3><p class="body-3 mut">Pick songs, albums or playlists and press download. Files land in the output folder you set in Settings.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2 class="heading-4 md-heading-3 reveal">Questions before you download</h2>
+    <div class="faq reveal">
+      <details><summary class="title-3">Do I need an Apple Music subscription?</summary><p class="body-3">Yes. GAMDL signs in with your own Apple Music session through gamdl, so it can only fetch what your subscription can play.</p></details>
+      <details><summary class="title-3">What gets installed on my PC?</summary><p class="body-3">Python 3.10 or newer, gamdl 4, mpv for full song previews, and the Microsoft Edge WebView2 runtime. GAMDL shows you the list and waits for a yes before it downloads anything.</p></details>
+      <details><summary class="title-3">Does it run on Mac or Linux?</summary><p class="body-3">No. GAMDL is a Windows app built with AutoHotkey v2 and WebView2.</p></details>
+      <details><summary class="title-3">Where do my files and settings go?</summary><p class="body-3">Music goes to the output folder you set in Settings. History, favorites and settings are saved in a .gamdl folder inside your Windows user profile.</p></details>
+      <details><summary class="title-3">Can I download several albums at once?</summary><p class="body-3">Yes. Run between 1 and 8 downloads in parallel, with 4 as the default. Albums can be split into separate tracks as they download.</p></details>
+      <details><summary class="title-3">Is GAMDL affiliated with Apple?</summary><p class="body-3">No. It is an independent app made by HLIM. Use it for your own listening, and follow the terms of your subscription and the copyright rules where you live.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="heading-4 md-heading-3 reveal" style="margin-bottom:0">Your next album is one link away</h2>
+    <div class="cta reveal">
+      <a class="btn button-md" href="{{download_url}}"><svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg>Download GAMDL for Windows</a>
+      <p class="caption-2 mut">Needs an active Apple Music subscription. Setup asks before it installs anything.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="caption-2 mut">Made by HLIM. GAMDL is an independent app and is not affiliated with or endorsed by Apple. Apple Music is a trademark of Apple Inc. Use GAMDL for personal listening only, and follow your subscription terms and the copyright laws where you live.</p>
+    <p class="caption-2"><span class="dis" aria-disabled="true" title="Add your privacy policy link">Privacy policy</span><span class="dis" aria-disabled="true" title="Add your terms link">Terms</span></p>
+  </div>
+</footer>
+
+<script>
+const D=document,R=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const rv=new IntersectionObserver(l=>l.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');rv.unobserve(e.target)}}),{threshold:.15});
+D.querySelectorAll('.reveal').forEach(e=>rv.observe(e));
+const t=D.getElementById('tg');
+t.innerHTML=t.textContent.trim().split(/\s+/).map(w=>'<span class="wd">'+w+'</span>').join(' ');
+const ws=t.querySelectorAll('.wd');
+if(R)ws.forEach(w=>w.classList.add('on'));
+else{const wo=new IntersectionObserver(l=>l.forEach(e=>e.target.classList.toggle('on',e.isIntersecting||e.boundingClientRect.top<0)),{rootMargin:'0px 0px -40% 0px'});ws.forEach(w=>wo.observe(w))}
+</script>
+</body>
+</html>
